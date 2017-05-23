@@ -50,19 +50,19 @@ void Move(Snake_Pointer snake, int a, int b) {
 //d: (1, 0)
 void Move_Snake(Snake_Pointer snake, char key) {
 	if (key == 'a') {
-		puts("a");
+		//puts("a");
 		Move(snake, -1, 0);
 	}
 	else if (key == 'w') {
-		puts("w");
+		//puts("w");
 		Move(snake, 0, -1);
 	}
 	else if (key == 's') {
-		puts("s");
+		//puts("s");
 		Move(snake, 0, 1);
 	}
 	else if (key == 'd') {
-		puts("d");
+		//puts("d");
 		Move(snake, 1, 0);
 	}
 }

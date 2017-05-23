@@ -23,8 +23,7 @@ void gotoxy(int x, int y)//Î»ÖÃº¯Êý
 int main() {
 	Snake_Pointer snake = Init_Snake();
 	Food_Pointer food = Init_Food(snake);
-	printf("Food_Positon: x =%d , y =%d \n", food->x, food->y);
-	//printf("Food_Positon: x =%d , y =%d \n", *Food_Position, *(Food_Position + 1));
+	//printf("Food_Positon: x =%d , y =%d \n", food->x, food->y);
 	//Sleep(5000);
 	Draw(snake, food);
 	//Sleep(5000);
